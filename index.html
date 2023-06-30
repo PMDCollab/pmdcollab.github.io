@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
     <title>PMDCollab Project</title>
 </head>
-<body style="display:grid;">
-    <a href="https://sprites.pmdcollab.org">PMDCollab Sprites</a>
-    <a href="https://spriteserver.pmdcollab.org">GraphQL Server</a>
-    <a href="https://nsc.pmdcollab.org">NotSprite Collab</a>
-    <a href="https://portraits.pmdcollab.org">PMDCollab Portraits</a>
-    
-    <a href="https://github.com/PMDCollab/SpriteCollab">SpriteCollab Repository</a>
-    <a href="http://hacknews.pmdcollab.org">Hacking News (Archived)</a>
-    <a href="http://wiki.pmdo.pmdcollab.org">PMDO Wiki</a>
 
-    <a href="https://discord.gg/skytemple">Discord Server</a>
-    <a href="https://guild.pmdcollab.org">Mastodon</a>
-    <a href="https://twitter.com/PMD_Spritebot">PMD Spritebot</a>
+<body class="main-grid">
+    <div class="repo nes-container">
+        <h1>PMDCollab Repository</h1>
+        <h3>Browse through thousands of sprites and portraits made by the community!</h3>
+        <div class="main-repos">
+            <div class="sprites nes-container">
+                <h3>This is the main repository!</h3>
+                <div class="main-repo-content">
+                    <img class="sprites-img nes-container" src="./assets/sprites.png">
+                    <div style="display: flex; flex-direction: column;">
+                        <a href="https://sprites.pmdcollab.org">
+                            <button class="nes-btn is-primary">PMDCollab Sprites</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="secondary-sprites">
+                <div class="nes-container">
+                    <h4>This is the legacy website for portrait viewing.</h4>
+                    <a href="https://portraits.pmdcollab.org">
+                        <button class="nes-btn is-warning">PMDCollab Portraits</button>
+                    </a>
+                </div>
+                <div class="nes-container">
+                    <h4>This is the GraphQL server used to query media regarding PMD sprites and portraits.</h4>
+                    <a href="https://spriteserver.pmdcollab.org">
+                        <button class="nes-btn is-warning" href="https://spriteserver.pmdcollab.org">GraphQL Server</button>
+                    </a>
+                </div>
+                <div class="nes-container">
+                    <h4>This is a alternate version of the repository with unofficial sprites and portraits.</h4>
+                    <a href="https://nsc.pmdcollab.org">
+                        <button class="nes-btn is-warning" href="https://nsc.pmdcollab.org">NotSprite Collab</button>
+                    </a>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <!-- <div>
+        <a href="https://github.com/PMDCollab/SpriteCollab">SpriteCollab Repository</a>
+        <a href="http://hacknews.pmdcollab.org">Hacking News (Archived)</a>
+        <a href="http://wiki.pmdo.pmdcollab.org">PMDO Wiki</a>
+    </div>
+
+    <div>
+        <a href="https://discord.gg/skytemple">Discord Server</a>\
+        <a href="https://guild.pmdcollab.org">Mastodon</a>
+        <a href="https://twitter.com/PMD_Spritebot">PMD Spritebot</a>
+    </div> -->
 </body>
+
 </html>

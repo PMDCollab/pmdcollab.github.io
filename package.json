@@ -1,0 +1,24 @@
+{
+  "name": "pmdcollab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/25Pi25/pmdcollab.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/25Pi25/pmdcollab.github.io/issues"
+  },
+  "homepage": "https://github.com/25Pi25/pmdcollab.github.io#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "gh-pages": "^5.0.0"
+  }
+}

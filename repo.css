@@ -1,0 +1,49 @@
+.repo {
+    background-image: url(./assets/background.png);
+}
+
+.sprites {
+    display: inline-block;
+    width: 75%;
+    --border-width: 1.25em;
+}
+
+.main-repo-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.secondary-sprites {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.secondary-sprites .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sprite-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+.sprites-img {
+    height: 20em;
+    padding: 0;
+    border: 0.2em solid;
+}
+
+@media (max-width: 1080px) {
+
+    .sprites {
+        width: 100%;
+    }
+    .secondary-sprites {
+        grid-template-columns: 100%;
+    }
+}

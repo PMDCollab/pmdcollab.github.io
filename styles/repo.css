@@ -14,7 +14,8 @@
 }
 
 .sprites-img {
-    max-width: 50%;
+    width: 50%;
+    max-width: 50em;
     height: auto;
     padding: 0;
     border: 0.2em solid;

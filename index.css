@@ -19,9 +19,28 @@ body {
     border-top: 10px solid black;
 }
 
-.repo, .pmdo {
+.main-grid > div {
     width: 100%;
-    padding: 2%;
+    padding: 0.5%;
     background-color: rgba(0,0,0,0.3);
     background-blend-mode: overlay;
+}
+
+.container.main-content {
+    display: inline-block;
+    width: 75%;
+    --border-width: 1.25em;
+}
+
+.image-button-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-content-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5em;
 }

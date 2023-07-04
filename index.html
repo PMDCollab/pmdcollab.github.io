@@ -8,9 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="borders.css">
-    <link rel="stylesheet" href="repo.css">
-    <link rel="stylesheet" href="pmdo.css">
+    <link rel="stylesheet" href="styles/borders.css">
+    <link rel="stylesheet" href="styles/repo.css">
+    <link rel="stylesheet" href="styles/pmdo.css">
+    <link rel="stylesheet" href="styles/skytemple.css">
     <title>PMDCollab Project</title>
 </head>
 
@@ -21,11 +22,11 @@
             <h3>Browse through thousands of sprites and portraits made by the community!</h3>
         </div>
         <div class="repo-widgets">
-            <div class="sprites container blue">
+            <div class="main-content container blue">
                 <h3>Check out the main repository, filled with old and new assets including generations 5+!</h3>
-                <div class="main-repo-content">
+                <div class="image-button-content">
                     <img class="sprites-img" src="./assets/sprites.png">
-                    <div class="sprite-buttons">
+                    <div class="main-content-buttons">
                         <a href="https://sprites.pmdcollab.org">
                             <button class="nes-btn is-primary">PMDCollab Sprites</button>
                         </a>
@@ -60,14 +61,49 @@
     <div class="pmdo">
         <div class="container header">
             <h1>Pokémon Mystery Dungeon: Origins</h1>
-            <h3>A fangame to experience the roots of PMD!</h3>
+            <h3>A PMD engine made to replicate the traditional roguelike!</h3>
         </div>
         <div class="pmdo-widgets">
             <div class="container red">
-                <h4>Watch a playthrough of PMDO!</h4>
+                <h4>Download here!</h4>
+                <a href="https://github.com/audinowho/PMDODump/releases">
+                    <button class="nes-btn is-error">Download</button>
+                </a>
             </div>
             <div class="container red">
-                <h4>Watch a playthrough of PMDO!</h4>
+                <h4>Learn about more from the wiki!</h4>
+                <a href="https://wiki.pmdo.pmdcollab.org/">
+                    <button class="nes-btn is-error">PMDO Wiki</button>
+                </a>
+            </div>
+            <div class="container red">
+                <h4>Check out the online leaderboards!</h4>
+                <a href="https://leaderboard.pmdo.pmdcollab.org/">
+                    <button class="nes-btn is-error">PMDO Leaderboards</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="skytemple">
+        <div class="container header">
+            <h1>SkyTemple</h1>
+            <h3>A ROM hack editor for PMD: Explorers of Sky!</h3>
+        </div>
+        <div class="main-content container">
+            <h4>Download the editor!</h4>
+            <div class="image-button-content">
+                <iframe class="media-container" width="560" height="315" src="https://www.youtube.com/embed/sAfNOmss0tw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <div class="main-content-buttons">
+                    <a href="https://sexypedia.fandom.com/wiki/Dusknoir_(PMD)">
+                        <button class="nes-btn is-success">SkyTemple Main Page</button>
+                    </a>
+                    <a href="https://blog.skytemple.org/">
+                        <button class="nes-btn">SkyTemple Blog</button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>

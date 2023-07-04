@@ -1,9 +1,0 @@
-.pmdo {
-    background-image: url(./assets/pmdo.png);
-    height: 1080px !important;
-}
-
-.pmdo-widgets {
-    display: grid;
-    grid-template-columns: 40% 60%;
-}

@@ -1,6 +1,6 @@
 .container {
-    --border-width: 1em;
-    --border-color: url(./assets/borders/special-episode.png);
+    --border-width: 0.75em;
+    --border-color: url(../assets/borders/special-episode.png);
     --border-background: rgba(0, 55, 0, 0.815);
 
     border: var(--border-width) solid;
@@ -8,6 +8,10 @@
     border-image: var(--border-color) 32 repeat;
     background-color: var(--border-background);
     margin: 0.2em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .container.header {
@@ -15,16 +19,16 @@
 }
 
 .container.red {
-    --border-color: url(./assets/borders/magmortar.png);
+    --border-color: url(../assets/borders/magmortar.png);
     --border-background: rgba(55, 0, 0, 0.815);
 }
 
 .container.blue {
-    --border-color: url(./assets/borders/male.png);
+    --border-color: url(../assets/borders/male.png);
     --border-background: rgba(0, 0, 55, 0.815);
 }
 
 .container.yellow {
-    --border-color: url(./assets/borders/pikachu.png);
+    --border-color: url(../assets/borders/pikachu.png);
     --border-background: rgba(55, 55, 0, 0.815);
 }

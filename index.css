@@ -3,8 +3,11 @@
     src: url(./wondermail.ttf);
 }
 
-:root {
+
+body {
     overflow-wrap: break-word;
+    image-rendering: pixelated;
+    color: rgb(230, 230, 230);
 }
 
 .main-grid {
@@ -13,52 +16,32 @@
     text-align: center;
 }
 
+.main-grid > *:not(:first-child) {
+    border-top: 10px solid black;
+}
 
-.repo {
-    background-image: url(./assets/background.png);
-    background-color: rgba(255, 255, 255, 0.8);
+.main-grid > div {
+    width: 100%;
+    padding: 0.5%;
+    background-color: rgba(0,0,0,0.3);
     background-blend-mode: overlay;
-    width: 100vw;
-    padding: 2%;
 }
 
-.repo.nes-container .nes-container {
-    background-color: rgba(255, 255, 255, 1);
-}
-
-.sprites {
+.container.main-content {
     display: inline-block;
     width: 75%;
+    --border-width: 1.25em;
 }
 
-.main-repo-content {
+.image-button-content {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.secondary-sprites {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-}
-
-.secondary-sprites .nes-container {
+.main-content-buttons {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.sprites-img.nes-container {
-    height: 20vw;
-    padding: 0;
-}
-
-@media (max-width: 1080px) {
-    .main-repos .nes-container {
-        max-width: 100%;
-    }
-
-    .secondary-sprites {
-        grid-template-columns: 100%;
-    }
+    gap: 0.5em;
 }

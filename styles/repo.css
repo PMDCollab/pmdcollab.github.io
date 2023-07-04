@@ -1,0 +1,33 @@
+.repo {
+    background-image: url(../assets/background.png);
+}
+
+.secondary-sprites {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.secondary-sprites .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sprites-img {
+    width: 50%;
+    max-width: 50em;
+    height: auto;
+    padding: 0;
+    border: 0.2em solid;
+}
+
+@media (max-width: 1080px) {
+
+    .main-content {
+        width: 100%;
+    }
+
+    .secondary-sprites {
+        grid-template-columns: 100%;
+    }
+}

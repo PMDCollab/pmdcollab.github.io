@@ -1,22 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles/borders.css">
+    <link rel="stylesheet" href="styles/repo.css">
+    <link rel="stylesheet" href="styles/pmdo.css">
+    <link rel="stylesheet" href="styles/skytemple.css">
     <title>PMDCollab Project</title>
 </head>
-<body style="display:grid;">
-    <a href="https://sprites.pmdcollab.org">PMDCollab Sprites</a>
-    <a href="https://spriteserver.pmdcollab.org">GraphQL Server</a>
-    <a href="https://nsc.pmdcollab.org">NotSprite Collab</a>
-    <a href="https://portraits.pmdcollab.org">PMDCollab Portraits</a>
-    
-    <a href="https://github.com/PMDCollab/SpriteCollab">SpriteCollab Repository</a>
-    <a href="http://hacknews.pmdcollab.org">Hacking News (Archived)</a>
-    <a href="http://wiki.pmdo.pmdcollab.org">PMDO Wiki</a>
 
-    <a href="https://discord.gg/skytemple">Discord Server</a>
-    <a href="https://guild.pmdcollab.org">Mastodon</a>
-    <a href="https://twitter.com/PMD_Spritebot">PMD Spritebot</a>
+<body class="main-grid">
+    <div class="repo">
+        <div class="header container">
+            <h1>PMDCollab Repository</h1>
+            <h3>Browse through thousands of sprites and portraits made by the community!</h3>
+        </div>
+        <div class="repo-widgets">
+            <div class="main-content container blue">
+                <h3>Check out the main repository, filled with old and new assets including generations 5+!</h3>
+                <div class="image-button-content">
+                    <img class="sprites-img" src="./assets/sprites.png">
+                    <div class="main-content-buttons">
+                        <a href="https://sprites.pmdcollab.org">
+                            <button class="nes-btn is-primary">PMDCollab Sprites</button>
+                        </a>
+                        <a href="https://github.com/PMDCollab/SpriteCollab">
+                            <button class="nes-btn">GitHub Repository</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="secondary-sprites">
+                <div class="container yellow">
+                    <h4>This is the legacy website for portrait viewing.</h4>
+                    <a href="https://portraits.pmdcollab.org">
+                        <button class="nes-btn is-warning">PMDCollab Portraits</button>
+                    </a>
+                </div>
+                <div class="container yellow">
+                    <h4>Want to use the public API? Take a look with the GraphQL console!</h4>
+                    <a href="https://spriteserver.pmdcollab.org">
+                        <button class="nes-btn is-warning">GraphQL Console</button>
+                    </a>
+                </div>
+                <div class="container yellow">
+                    <h4>Look for unofficial sprites here!</h4>
+                    <a href="https://nsc.pmdcollab.org">
+                        <button class="nes-btn is-warning">NotSprite Collab</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pmdo">
+        <div class="container header">
+            <h1>Pokémon Mystery Dungeon: Origins</h1>
+            <h3>A PMD engine made to replicate the traditional roguelike!</h3>
+        </div>
+        <div class="pmdo-widgets">
+            <div class="container red">
+                <h4>Download here!</h4>
+                <a href="https://github.com/audinowho/PMDODump/releases">
+                    <button class="nes-btn is-error">Download</button>
+                </a>
+            </div>
+            <div class="container red">
+                <h4>Learn about more from the wiki!</h4>
+                <a href="https://wiki.pmdo.pmdcollab.org/">
+                    <button class="nes-btn is-error">PMDO Wiki</button>
+                </a>
+            </div>
+            <div class="container red">
+                <h4>Check out the online leaderboards!</h4>
+                <a href="https://leaderboard.pmdo.pmdcollab.org/">
+                    <button class="nes-btn is-error">PMDO Leaderboards</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="skytemple">
+        <div class="container header">
+            <h1>SkyTemple</h1>
+            <h3>A ROM hack editor for PMD: Explorers of Sky!</h3>
+        </div>
+        <div class="main-content container">
+            <h4>Download the editor!</h4>
+            <div class="image-button-content">
+                <div class="main-content-buttons">
+                    <a href="https://skytemple.org/">
+                        <button class="nes-btn is-success">SkyTemple Main Page</button>
+                    </a>
+                    <a href="https://blog.skytemple.org/">
+                        <button class="nes-btn">SkyTemple Blog</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div>
+        <a href="https://github.com/PMDCollab/SpriteCollab">SpriteCollab Repository</a>
+        <a href="http://hacknews.pmdcollab.org">Hacking News (Archived)</a>
+        <a href="http://wiki.pmdo.pmdcollab.org">PMDO Wiki</a>
+    </div>
+
+    <div>
+        <a href="https://discord.gg/skytemple">Discord Server</a>\
+        <a href="https://guild.pmdcollab.org">Mastodon</a>
+        <a href="https://twitter.com/PMD_Spritebot">PMD Spritebot</a>
+    </div> -->
 </body>
+
 </html>

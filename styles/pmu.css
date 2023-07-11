@@ -1,0 +1,8 @@
+.pmu {
+	
+}
+
+.pmu-widgets {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
